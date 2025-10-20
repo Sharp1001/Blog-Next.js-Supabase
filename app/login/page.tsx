@@ -16,7 +16,7 @@ const LoginPage = async () => {
   return (
     <>
       <LoginHeader />{" "}
-      <div className="mx-auto mt-5 max-w-md">
+      <div className="mx-auto mt-4 max-w-md">
         <LoginSection />
       </div>
     </>
