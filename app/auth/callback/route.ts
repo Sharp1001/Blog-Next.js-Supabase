@@ -24,5 +24,6 @@ export async function GET(request: Request) {
   }
 
   // return the user to an error page with instructions
+  // return the user to an error page with instructions
   return NextResponse.redirect(new URL("/auth/auth-code-error", request.url));
 }
